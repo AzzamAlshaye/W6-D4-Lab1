@@ -2,8 +2,8 @@ import React from "react";
 
 export default function AboutUs() {
   return (
-    <article className="space-y-4 max-w-2xl">
-      <h1 className="text-3xl font-bold">About Tuwaiq Academy</h1>
+    <article className=" flex flex-col gap-5 space-y-4 max-w-2xl px-10 h-[80vh]">
+      <h1 className="text-3xl font-bold mt-10">About Tuwaiq Academy</h1>
       <p>
         Tuwaiq Academy is a premier educational institution dedicated to
         bridging the gap between academia and industry. Established with a

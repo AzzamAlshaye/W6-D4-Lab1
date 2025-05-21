@@ -12,7 +12,10 @@ export default function ContactUs() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-lg mx-auto space-y-4">
+    <form
+      onSubmit={handleSubmit}
+      className="max-w-lg mx-auto mt-20 space-y-4 h-[70vh] "
+    >
       <div>
         <label className="block font-medium mb-1">Name</label>
         <input

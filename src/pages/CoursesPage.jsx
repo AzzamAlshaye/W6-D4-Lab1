@@ -20,7 +20,7 @@ const courseData = [
 
 export default function CoursesPage() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 h-[80vh] items-center justify-center text-center">
+    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 h-[80vh] items-center justify-center text-center px-5">
       {courseData.map(({ title, description, duration }, idx) => (
         <div
           key={idx}
